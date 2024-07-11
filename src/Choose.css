@@ -1,0 +1,114 @@
+.mainPage{
+    position: absolute;
+    height: 90vh;
+    width: 80vw;
+    left: 10vw;
+    top: 5vh;
+    border-radius: 30px;
+    background: linear-gradient(to top,rgba(213, 124, 255, 1),rgba(102, 134, 249, 1),rgba(252, 55, 103, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quizpage{
+    position: absolute;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    left: 20%;
+    top: 15%;
+    background-color: white;
+}
+.quizpage h1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 3rem;
+}
+.line-1{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    width: 25%;
+    height: 0.5%;
+    background-color: black;
+}
+.line-2{
+    position: absolute;
+    top: 25%;
+    left: 64%;
+    width: 25%;
+    height: 0.5%;
+    background-color: black;
+}
+.quizpage p{
+    font-size: large;
+    width: 60%;
+    font-weight: 500;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.CreateQuiz,.PlayQuiz{
+    width: 30%;
+    height: 12%;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    background-color: rgba(225, 165, 226, 0.23);
+    background: linear-gradient(90deg, rgba(229, 67, 255, 1), rgba(77, 166, 248, 1), rgba(254, 82, 82, 1),rgba(254, 82, 82, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 700;
+    
+
+}
+.CreateQuiz{
+    bottom: 15%;
+    position: absolute;
+    left: 15%;
+    margin-right: 10%;
+}
+.PlayQuiz{
+    bottom: 15%;
+    position: absolute;
+    left: 55%;
+    
+}
+.CreateQuiz:hover,
+.PlayQuiz:hover{
+    background-color: black;
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.LinkInp{
+    padding: 20px;
+    width: 60%;
+    position: absolute;
+    left: 18%;
+    top: 55%;
+    height: 3%;
+    border-radius: 30px;
+    background-color: rgba(184, 179, 184, 0.26);
+    border: none;
+    
+}
+.Play{
+    position: relative;
+    width: 20%;
+    height: 10%;
+    border-radius: 30px;
+    left: 0%;
+    top: 30%;
+    color: blueviolet;
+    font-size: large;
+    font-weight: 600;
+    background-color: rgba(250, 193, 248, 0.26);
+    border: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}

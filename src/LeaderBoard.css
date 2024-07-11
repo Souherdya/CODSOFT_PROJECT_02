@@ -1,0 +1,111 @@
+.MainDiv{
+    position: absolute;
+    height: 90vh;
+    width: 80vw;
+    left: 10vw;
+    top: 5vh;
+    border-radius: 30px;
+    background: linear-gradient(to top,rgba(213, 124, 255, 1),rgba(102, 134, 249, 1),rgba(252, 55, 103, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CompDiv{
+    position: absolute;
+    height: 75%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    left: 20%;
+    top: 15%;
+    background-color: white;
+}
+.CompDiv h1{
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    font-size: 3rem;
+}
+.line1{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    width: 15%;
+    height: 0.5%;
+    background-color: black;
+}
+.line2{
+    position: absolute;
+    top: 25%;
+    left: 74%;
+    width: 15%;
+    height: 0.5%;
+    background-color: black;
+}
+.Score-Card{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    height: 14%;
+    width: 20%;
+    background-color: black;
+    border-radius: 30px;
+   z-index: 1;
+   box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Score-Card .hFor{
+    font-weight: 700;
+    color: azure;
+    font-size: 3rem;
+}
+.NameOfPlayer{
+    position: absolute;
+    left: 38%;
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 15%;
+}
+.QuizTitle{
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 30%;
+
+}
+.HomePage{
+    position: absolute;
+    bottom: 7%;
+    left: 4%;
+    width: 30%;
+    height: 12%;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    background-color: rgba(225, 165, 226, 0.23);
+    background: linear-gradient(90deg, rgba(229, 67, 255, 1), rgba(77, 166, 248, 1), rgba(254, 82, 82, 1),rgba(254, 82, 82, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.PlayAgain{
+    position: absolute;
+    bottom: 7%;
+    right: 4%;
+    width: 30%;
+    height: 12%;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    background-color: rgba(225, 165, 226, 0.23);
+    background: linear-gradient(90deg, rgba(229, 67, 255, 1), rgba(77, 166, 248, 1), rgba(254, 82, 82, 1),rgba(254, 82, 82, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 700;
+}

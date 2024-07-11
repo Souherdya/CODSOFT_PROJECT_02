@@ -1,0 +1,136 @@
+.main{
+    position: absolute;
+    height: 90vh;
+    width: 80vw;
+    left: 10vw;
+    top: 5vh;
+    border-radius: 30px;
+    background: linear-gradient(to top,rgba(213, 124, 255, 1),rgba(102, 134, 249, 1),rgba(252, 55, 103, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 35px;
+    left: 5%;
+    top: 5%;
+    background-color: white;
+}
+.container h2{
+    display: flex;
+    justify-content: left;
+    padding-left: 20%;
+    padding-top: 5%;
+    font-size: 2.5rem;
+}
+
+.container form{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: 90%;
+    height: auto;
+}
+.container p{
+    font-size: larger;
+    font-weight: 500;
+    width: 100%;
+}
+.sub{
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 20px;
+    width: 20%;
+    padding: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 35px;
+    background: linear-gradient(90deg, rgba(229, 67, 255, 1), rgba(77, 166, 248, 1), rgba(254, 82, 82, 1),rgba(254, 82, 82, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    border: none;
+    left: 5%;
+
+}
+.sub:hover{
+    cursor: pointer
+    ;
+
+}
+.container input{
+    height: auto;
+    font-weight: 500;
+    font-size: large;
+    padding: 5px;
+    
+}
+.score{
+    display: flex;
+    justify-content: center;
+}
+.questionDiv{
+    position: relative;
+    width: 90%;
+    height: 40%;
+    top: 30%;
+    left: 3%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 15%;
+    margin-top: 5%;
+    border-radius: 40px;
+    background-color: rgba(237, 214, 248, 0.62);;
+}
+.questionDiv p{
+    position: relative;
+    top: 7%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+.questionDiv .radio{
+    font-size: larger;
+    padding: 5px;
+}
+.nameforLB{
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    width: 30%;
+    height: 5%;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    z-index: 1;
+    background-color: rgba(250, 229, 249, 0.26);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
+.but{
+    position: absolute;
+    right: 25%;
+    top: 2%;
+    margin: 20px;
+    padding: 10px;
+   
+    border-radius: 20px;
+    color: blueviolet;
+    font-size: large;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.842);
+    border: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.but:hover{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+
+}
